@@ -19,5 +19,12 @@ public class FileExistTest {
 		boolean result = fileexist.fileExist("C:\\Java_work\\FileExistTest.txt");
 		assertEquals(true,result);
 	}
+	
+	@Test
+	public void testForFileExist1() {
+		//String path = "C:\\Java_work\\FileExistTest.txt";
+		boolean result = fileexist.fileExist("C:\\Java_work\\FileExistTestp.txt");
+		assertEquals(false,result);
+	}
 
 }
