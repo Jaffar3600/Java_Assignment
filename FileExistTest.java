@@ -16,7 +16,7 @@ public class FileExistTest {
 	
 	@Test
 	public void testForFileExist() {
-		boolean result = fileexist.fileExist();
+		boolean result = fileexist.fileExist("C:\\Java_work\\FileExistTest.txt");
 		assertEquals(true,result);
 	}
 
